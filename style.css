@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:burlywood;
+    height: 100vh;
+}
+.pizza-catalog{
+    width: 80vw;
+    justify-content: center;
+    display: flex;
+}
+.pizza-span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.pizza-span:hover{
+    background-color: gainsboro;
+}
+span{
+    width:100%;
+    text-align: center;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+.pizza-selected{
+    outline: solid black 3px;
+}
+
+img{
+    height: 100;
+}
+button{
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    border: none;
+    height: 2em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+#btnRandom{
+    visibility: hidden;
+}
+#btnReload{
+    visibility: hidden;
+}
+.headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    background-color: greenyellow;
+}
